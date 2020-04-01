@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Movies Recommender{% endblock %}
+{% block content %}
+<h1>Movie Recommender</h1>
+<form action="{{  url_for('main') }}" method="POST">
+    <input type="text" name="movie_name" placeholder="Enter a Movie name" required />
+    <input type="submit" id="submission_button" value="Submit" />
+
+</form>
+<p>The model uses Content Based Recommendations to find similar movies. The intuitive idea is that if a user likes one
+    item, they will also like items that are similar to it.
+</p>
+{% endblock %}

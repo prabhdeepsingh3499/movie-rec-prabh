@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Recommendations-Movie Recommender{% endblock %}
+{% block content %}
+<h1>Recommendations</h1>
+<p>Showing Results for:{{ search_name }}</p>
+<table align="center" style="width: auto;">
+    <tr>
+        <th>Movie Name</th>
+    </tr>
+    <tr>
+        <td>{{ movies_names[0] }}</td>
+    </tr>
+    <tr>
+        <td>{{ movies_names[1] }}</td>
+    </tr>
+    <tr>
+        <td>{{ movies_names[2] }}</td>
+    </tr>
+    <tr>
+        <td>{{ movies_names[3] }}</td>
+    </tr>
+    <tr>
+        <td>{{ movies_names[4] }}</td>
+    </tr>
+    <tr>
+        <td>{{ movies_names[5] }}</td>
+    </tr>
+    <tr>
+        <td>{{ movies_names[6] }}</td>
+    </tr>
+    <tr>
+        <td>{{ movies_names[7] }}</td>
+    </tr>
+    <tr>
+        <td>{{ movies_names[8] }}</td>
+    </tr>
+    <tr>
+        <td>{{ movies_names[9] }}</td>
+    </tr>
+
+</table>
+{% endblock %}

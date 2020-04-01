@@ -1,0 +1,103 @@
+body{
+    background-color: #121212;
+}
+@media (min-width: 32rem)
+{
+    body{
+        font-size: 102.5%;
+    }
+}
+@media (min-width: 54rem)
+{
+    body{
+        font-size: 105%;
+    }
+}
+@media (min-width: 65rem)
+{
+    body{
+        font-size: 107.5%;
+    }
+}
+@media (min-width: 75rem)
+{
+    body{
+        font-size: 110.5%;
+    }
+}
+@media (min-width: 91rem)
+{
+    body{
+        font-size: 115%;
+    }
+}
+@media (min-width: 115rem)
+{
+    body{
+        font-size: 120%;
+    }
+}
+@media (min-width: 130rem)
+{
+    body{
+        font-size: 125%;
+    }
+}
+input[type=text]{
+    width: 70%;
+    padding: 1em;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid grey;
+}
+h1,p{
+    color: #E8E6E3;
+    text-align: center;
+}
+td,th{
+    color: #E8E6E3;
+    font-size: 16.8px;
+    font-family: sans-serif;
+}
+table,th,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+input[type=submit]{
+    background-color: #FF0000;
+    width: 25%;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 30px;
+    color: white;
+    border-style: none;
+}
+.movie{
+    height: 70vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    display: block;
+    border-radius: 20px;
+    padding: 1em;
+    width: auto;
+    text-align: center;
+    background-color: #121212;
+}
+ul{
+    text-align: center;
+    list-style-position: inside;
+    color: #E8E6E3;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    display: inline;
+}
+
+
+
