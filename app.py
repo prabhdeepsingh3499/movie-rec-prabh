@@ -39,6 +39,7 @@ def main():
 		return(flask.render_template('index.html'))
 	if flask.request.method == 'POST':
 		m_name = flask.request.form['movie_name']
+		m_name = m_name.lower()
 		if m_name not in all_titles:
 			als = close_matches(result['title'],m_name)
 			alternative_names = []
