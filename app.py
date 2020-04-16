@@ -53,8 +53,13 @@ def close_matches(patterns,word):
     return get_close_matches(word,patterns,cutoff=0.4)
 
 
-@app.route('/', methods = ['GET','POST'])
+@app.route('/', methods = ['GET'])
 def main():
+    if flask.request.method == 'GET':
+        return(flask.render_template('homepage.html'))
+
+@app.route('/movie-recommender', methods = ['GET','POST'])
+def main_movie():
     if flask.request.method == 'GET':
         return(flask.render_template('index.html'))
     if flask.request.method == 'POST':

@@ -2,7 +2,7 @@
 {% block title %}Movies Recommender{% endblock %}
 {% block content %}
 <h1>Movie Recommender</h1>
-<form action="{{  url_for('main') }}" method="POST">
+<form action="/movie-recommender" method="POST">
     <input type="text" name="movie_name" placeholder="Enter a Movie name" required />
     <input type="submit" id="submission_button" value="Submit" />
 
