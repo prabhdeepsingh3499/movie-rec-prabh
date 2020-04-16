@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Songs Recommender System{% endblock %}
+{% block content %}
+<h1>Song Recommender</h1>
+<form action="/song-recommender" method="POST">
+    <input type="text" name="song_name" placeholder="Enter a song name" required />
+    <input type="submit" id="submission_button" value="Submit" />
+</form>
+</form>
+{% endblock %}
