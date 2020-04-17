@@ -1,3 +1,6 @@
+*{    
+font-family: monospace;
+}
 body{
     background-color: #121212;
 }
@@ -57,7 +60,7 @@ h1,p{
 td,th{
     color: #E8E6E3;
     font-size: 16.8px;
-    font-family: sans-serif;
+    text-align: center;
 }
 table,th,td{
     border: 1px solid white;
@@ -72,7 +75,7 @@ input[type=submit]{
     color: white;
     border-style: none;
 }
-.movie{
+.main_content{
     height: 70vh;
     margin-top: 15vh;
     margin-bottom: 15vh;
@@ -86,18 +89,23 @@ input[type=submit]{
     background-color: #121212;
 }
 ul{
-    text-align: center;
     list-style-position: inside;
     color: #E8E6E3;
 }
-.nav{
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .navbar ul li{
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.nav li{
-    display: inline;
-}
-
-
-
+  }
+  .navbar ul li a{
+      text-decoration: none;
+  }
+  .navbar ul li:hover{
+    background-color: #FF0000;
+  }

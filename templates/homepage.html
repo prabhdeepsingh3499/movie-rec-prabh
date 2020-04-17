@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-    <a href="/movie-recommender">Movie Recommender</a>
-    <Br />
-    <a href="/song-recommender">Songs Recommender</a>
-
-</body>
-
-</html>
+{% extends "base.html" %}
+{% block title %}BonTemps{% endblock %}
+{% block content %}
+<div class="navbar">
+    <ul>
+        <li><a href="/movie-recommender" style="color: #E8E6E3;">Movie Recommender</a></li>
+        <li><a href="/song-recommender" style="color: #E8E6E3;">Songs Recommender</a></li>
+    </ul>
+</div>
+{% endblock %}
