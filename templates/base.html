@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% block head %}
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% endblock %}
+</head>
+
+<body>
+    <h1 style="text-align: left; color: red;">BonTemps</h1>
+    <div class="main_content">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Song Recommendations{% endblock %}
+{% block content %}
+<h1>Recommendations</h1>
+<p>Showing Results for:{{ search_name }}</p>
+<table align="center" style="width: auto;">
+    <tr>
+        <th>Song Name</th>
+    </tr>
+    <tr>
+        <td>{{ songs_names[0] }}</td>
+    </tr>
+    <tr>
+        <td>{{ songs_names[1] }}</td>
+    </tr>
+    <tr>
+        <td>{{ songs_names[2] }}</td>
+    </tr>
+    <tr>
+        <td>{{ songs_names[3] }}</td>
+    </tr>
+    <tr>
+        <td>{{ songs_names[4] }}</td>
+    </tr>
+    <tr>
+        <td>{{ songs_names[5] }}</td>
+    </tr>
+    <tr>
+        <td>{{ songs_names[6] }}</td>
+    </tr>
+    <tr>
+        <td>{{ songs_names[7] }}</td>
+    </tr>
+    <tr>
+        <td>{{ songs_names[8] }}</td>
+    </tr>
+    <tr>
+        <td>{{ songs_names[9] }}</td>
+    </tr>
+
+</table>
+<p><a href="/">Back to Homepage</a></p>
+{% endblock %}
