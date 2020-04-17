@@ -4,48 +4,7 @@ font-family: monospace;
 body{
     background-color: #121212;
 }
-@media (min-width: 32rem)
-{
-    body{
-        font-size: 102.5%;
-    }
-}
-@media (min-width: 54rem)
-{
-    body{
-        font-size: 105%;
-    }
-}
-@media (min-width: 65rem)
-{
-    body{
-        font-size: 107.5%;
-    }
-}
-@media (min-width: 75rem)
-{
-    body{
-        font-size: 110.5%;
-    }
-}
-@media (min-width: 91rem)
-{
-    body{
-        font-size: 115%;
-    }
-}
-@media (min-width: 115rem)
-{
-    body{
-        font-size: 120%;
-    }
-}
-@media (min-width: 130rem)
-{
-    body{
-        font-size: 125%;
-    }
-}
+
 input[type=text]{
     width: 70%;
     padding: 1em;
@@ -91,19 +50,21 @@ input[type=submit]{
 ul{
     list-style-position: inside;
     color: #E8E6E3;
+    display: contents;
 }
 .navbar {
-    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
     background-color: #333;
   }
   .navbar ul li{
-    float: left;
     font-size: 16px;
     text-align: center;
     padding: 14px 16px;
     list-style-type: none;
   }
-  .navbar ul li a{
+  .navbar a{
       text-decoration: none;
   }
   .navbar ul li:hover{
