@@ -50,13 +50,13 @@ input[type=submit]{
 ul{
     list-style-position: inside;
     color: #E8E6E3;
-    display: contents;
 }
 .navbar {
     position: fixed;
     top: 0;
     right: 0;
     background-color: #333;
+    display: block;
   }
   .navbar ul li{
     font-size: 16px;
