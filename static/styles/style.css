@@ -74,9 +74,10 @@ ul{
     display: inline-table;
     font-size: 15px;
   }
-  .navbar a{
-      text-decoration: none;
-  }
   .toplmt:hover{
       background-color: red;
   }
+  .toplmt a{
+      text-decoration: none;
+  }
+
