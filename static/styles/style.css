@@ -13,14 +13,14 @@ input[type=text]{
     text-align: center;
     border: 1px solid grey;
 }
-h1,p{
+h1,p,h2,span{
     color: #E8E6E3;
     text-align: center;
 }
 td,th{
     color: #E8E6E3;
-    font-size: 16.8px;
     text-align: center;
+    padding: 10px;
 }
 table,th,td{
     border: 1px solid white;
@@ -80,4 +80,18 @@ ul{
   .toplmt a{
       text-decoration: none;
   }
-
+  button{
+      background-color: #FF0000;
+      padding: 1em;
+      border-radius: 20px;
+      border: 1px solid black;
+      left: 50%;
+      width: auto;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+button a{
+    font-size: 1.2em;
+      text-decoration: none;
+      color: #E8E6E3;
+}
