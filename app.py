@@ -86,12 +86,9 @@ def main_song():
     if flask.request.method == 'GET':
         return(flask.render_template('index_songs.html'))
     if flask.request.method == 'POST':
-        print("1")
         s_name = flask.request.form['song_name']
         s_name = s_name.lower()
-        print("2")
         if s_name not in all_titles_songs:
-            print("3")
             als = close_matches(result_songs['title'],s_name)
             alternative_names = []
             for i in als:

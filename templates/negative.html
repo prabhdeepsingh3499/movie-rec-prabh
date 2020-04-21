@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 {% block title %}
-Movie Not Found
+BonTemps-Movie Not Found
 {% endblock %}
 {% block content %}
 
 <h1>Movie Recommender</h1>
-<p>Sorry, the movie that you entered does not exist.</p>
+<p>Sorry, the movie that you entered was not found.</p>
+<p>Possible reasons are misspelled input or movie does not exist in database.</p>
 <p>Try the following alternatives:</p>
 <span>{{ alternative_movies[0] }},{{ alternative_movies[1] }},{{ alternative_movies[2] }}</span>
 <br>

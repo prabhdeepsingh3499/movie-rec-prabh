@@ -1,9 +1,9 @@
 {% extends "base.html" %}
-{% block title %}Song Not Found{% endblock %}
+{% block title %}BonTemps-Song Not Found{% endblock %}
 {% block content %}
-<h1>Song Recommender System</h1>
-<p>Sorry, the song that you entered does not exist.</p>
-<p>Possible reason can be misspelled input.</p>
+<h1>Song Recommender</h1>
+<p>Sorry, the song that you entered was not found.</p>
+<p>Possible reasons are misspelled input or song does not exist in database.</p>
 <p>Try the following alternatives.</p>
 <span>{{ alternative_songs[0] }},{{ alternative_songs[1] }},{{ alternative_songs[2] }}</span>
 <br>
